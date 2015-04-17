@@ -1,9 +1,21 @@
 h1{
 	font-family: 'Permian Serif';
 	color:#fff;
-	text-shadow: 1px 1px 2px #000;
+	text-shadow: 2px 1px 1px #000;
 	margin-left: 20%;
 
+}
+.pictop{
+	background: url(topp.png);
+	background-size: cover;
+}
+.fo-block{
+	background-image: url(bottomp.png);
+	background-size: contain;
+}
+.logo{
+	background: url(topp.png);
+	background-size: cover;
 }
 .n-b-text li{
 	display: inline-block;
@@ -19,7 +31,7 @@ h1{
 }
 .n-b-text a{
 	color:#fff;
-	text-shadow: 1px 1px 2px #000;
+	text-shadow: 2px 2px 3px #000;
 
 }
 .body-block{
@@ -27,23 +39,19 @@ h1{
 	text-indent: 10px;
 }
 .f-b-text{
-	margin-left: 180px;
 }
-.logo{
-	width: 150px;
-	height: 150px;
-}
-body{
-	background: url(img.jpg) no-repeat scroll;
+span{color:red;}
+/*body{
+	background: url(im.jpg) no-repeat scroll;
 	background-size: cover;
-	/*!!!!!!!!!!!!!!!!!!!!!!!!background-position: fixed;*/
-	overflow: hidden;    /*ВНИМАНИЕ СКРОЛ-БАРЫ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+	/*!!!!!!!!!!!!!!!!!!!!!!!!background-position: fixed;
+	overflow: hidden;    /*ВНИМАНИЕ СКРОЛ-БАРЫ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	height: 900px;
-	width: 1300px;
+	width: 1300px; */
 }
 .body-block h1, p{
 	color:#fff;
-	text-shadow: 1px 1px 2px #000;
+	text-shadow: 2px 1px 2px #000;
 	font-family: 'Permian Serif';
 }
 
@@ -63,11 +71,12 @@ body{
 
 .conti1, .conti2, .conti3, .conti4, .conti5, .conti6{
 	display:inline-block;
-	width: 550px;
-	height: 400px;
-	/*background:rgba(200,200,200,0.4);*/
+	width: 750px;
+	height: auto;
+	background:url(fon-f.png);
 	margin-right:50px;
 	margin-bottom: 40px;
+	overflow: auto;
 	
 }
 
@@ -75,18 +84,17 @@ body{
 	font-weight: 500;
 	font-size: 20px;
 	font-family: 'Mignon';
-	
 
 }
 #elem{
 	font-size: 12px;
 }
-#polzun{
-	background: #fff;
+/*#polzun{
+	background: #000;
 	width: 10px;
 	height: 10px;
 	border-radius: 100%;
 	position: fixed;
     left: 279px;
 
-}
+}*/
