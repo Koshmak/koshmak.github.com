@@ -19,6 +19,7 @@ title{
 }
 .navbar li{
 	color:#fff;
+	text-decoration: none;
 	text-shadow: 2px 2px 3px #000;
 	display: inline-block;
 	margin: 5px;
@@ -26,7 +27,8 @@ title{
 	font-variant: small-caps;
 	font-size: 25px;
 	font-family: 'TT Slabs';
-	background-image: linear-gradient(to top, rgba(255,225,225,0.5), rgba(192,192,192,0.5), rgba(105,147,185,0.5),rgba(105,147,185,0.5), rgba(192,192,192,0.2),rgba(255,255,255,0.1));
+	background-image: linear-gradient(to top, rgba(255,225,225,0.5), rgba(192,192,192,0.5), 
+	rgba(105,147,185,0.5),rgba(105,147,185,0.5), rgba(192,192,192,0.2),rgba(255,255,255,0.1));
 }
 h1{
 
